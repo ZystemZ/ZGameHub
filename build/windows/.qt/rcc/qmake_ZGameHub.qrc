@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/ZGameHub">
+    <file alias="qmldir">W:/Z-GAME-HUB-Windows/build/windows/ZGameHub/qmldir</file>
+  </qresource>
+</RCC>
+

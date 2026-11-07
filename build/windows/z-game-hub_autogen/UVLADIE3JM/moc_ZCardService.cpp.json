@@ -1,0 +1,226 @@
+{
+    "classes": [
+        {
+            "className": "ZCardService",
+            "lineNumber": 8,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "openCard",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "clearCard",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "source",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "output",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "format",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "buildCard",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 8,
+                    "name": "resolveLaunchPlan",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "showMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "scanCards",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "registerCard",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "entries",
+                    "notify": "cardChanged",
+                    "read": "entries",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "currentPath",
+                    "notify": "cardChanged",
+                    "read": "currentPath",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentFormat",
+                    "notify": "cardChanged",
+                    "read": "currentFormat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "status",
+                    "notify": "statusChanged",
+                    "read": "status",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "report",
+                    "notify": "reportChanged",
+                    "read": "report",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "busy",
+                    "notify": "busyChanged",
+                    "read": "busy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "cards",
+                    "notify": "cardsChanged",
+                    "read": "cards",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "ZCardService",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "cardChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "statusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "reportChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "busyChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "cardsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ZCardService.h",
+    "outputRevision": 68
+}

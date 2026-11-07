@@ -1,0 +1,574 @@
+{
+    "classes": [
+        {
+            "className": "GameCatalog",
+            "lineNumber": 12,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "launchCommand",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "coverPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "addManualGame",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "launchCommand",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "isCloned": true,
+                    "name": "addManualGame",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "addPath",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 6,
+                    "isCloned": true,
+                    "name": "addPath",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "name": "localPathFromUrl",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "localFileUrl",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "source",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "launchCommand",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "coverPath",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "appId",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "importCandidate",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "source",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "launchCommand",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "coverPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "isCloned": true,
+                    "name": "importCandidate",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "source",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "launchCommand",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 11,
+                    "isCloned": true,
+                    "name": "importCandidate",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "launchCommand",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "coverPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "updateManualGame",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "launchCommand",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 13,
+                    "isCloned": true,
+                    "name": "updateManualGame",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        },
+                        {
+                            "name": "coverPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 14,
+                    "name": "setGameCover",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 15,
+                    "name": "emulatorConfig",
+                    "returnType": "QVariantMap"
+                },
+                {
+                    "access": "public",
+                    "index": 16,
+                    "name": "detectRetroArch",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "index": 17,
+                    "name": "detectRetroArchCores",
+                    "returnType": "QStringList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 18,
+                    "name": "suggestRetroArchCore",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "executable",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "arguments",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "core",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "preset",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "aspectRatio",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 19,
+                    "name": "saveEmulatorConfig",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "executable",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "arguments",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "core",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "preset",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "aspectRatio",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 20,
+                    "isCloned": true,
+                    "name": "saveEmulatorConfig",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "executable",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "arguments",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "core",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "preset",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 21,
+                    "isCloned": true,
+                    "name": "saveEmulatorConfig",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "executable",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "arguments",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "core",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 22,
+                    "isCloned": true,
+                    "name": "saveEmulatorConfig",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 23,
+                    "name": "removeEmulatorConfig",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 24,
+                    "name": "launchGame",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "platform",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 25,
+                    "name": "launchExternalFile",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "qint64"
+                        }
+                    ],
+                    "index": 26,
+                    "name": "removeGame",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 27,
+                    "name": "refresh",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "games",
+                    "notify": "gamesChanged",
+                    "read": "games",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "emulatorConfigs",
+                    "notify": "emulatorConfigsChanged",
+                    "read": "emulatorConfigs",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "GameCatalog",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "gamesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "emulatorConfigsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "GameCatalog.h",
+    "outputRevision": 68
+}

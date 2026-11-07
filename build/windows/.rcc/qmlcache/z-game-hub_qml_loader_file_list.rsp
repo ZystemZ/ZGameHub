@@ -1,0 +1,12 @@
+--resource
+W:/Z-GAME-HUB-Windows/build/windows/.qt/rcc/qmake_ZGameHub.qrc
+--resource
+W:/Z-GAME-HUB-Windows/build/windows/.qt/rcc/z-game-hub_raw_qml_0.qrc
+--resource
+W:/Z-GAME-HUB-Windows/build/windows/.qt/rcc/z-game-hub_raw_qml_0_extra_qmldirs.qrc
+/qt/qml/ZGameHub/ui/Main.qml
+/qt/qml/ZGameHub/ui/components/GameCard.qml
+/qt/qml/ZGameHub/ui/components/ZButton.qml
+/qt/qml/ZGameHub/ui/components/ZTextField.qml
+/qt/qml/ZGameHub/ui/components/ZComboBox.qml
+/qt/qml/ZGameHub/ui/components/ZTextArea.qml

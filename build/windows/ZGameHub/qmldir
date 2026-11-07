@@ -1,0 +1,10 @@
+module ZGameHub
+typeinfo z-game-hub.qmltypes
+prefer :/qt/qml/ZGameHub/
+Main 1.0 ui/Main.qml
+GameCard 1.0 ui/components/GameCard.qml
+ZButton 1.0 ui/components/ZButton.qml
+ZTextField 1.0 ui/components/ZTextField.qml
+ZComboBox 1.0 ui/components/ZComboBox.qml
+ZTextArea 1.0 ui/components/ZTextArea.qml
+

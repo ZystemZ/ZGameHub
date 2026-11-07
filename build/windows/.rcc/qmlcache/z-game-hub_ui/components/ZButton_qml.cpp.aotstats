@@ -1,0 +1,84 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 15,
+                        "durationMicroseconds": 74,
+                        "errorMessage": "Cannot access value for name control",
+                        "functionName": "text",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "Cannot access value for name control",
+                        "functionName": "color",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 30,
+                        "durationMicroseconds": 317,
+                        "errorMessage": "Cannot access value for name Text",
+                        "functionName": "horizontalAlignment",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 28,
+                        "durationMicroseconds": 238,
+                        "errorMessage": "Cannot access value for name Text",
+                        "functionName": "verticalAlignment",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 221,
+                        "errorMessage": "Cannot access value for name Text",
+                        "functionName": "elide",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot access value for name control",
+                        "functionName": "bold",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name control",
+                        "functionName": "color",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot access value for name control",
+                        "functionName": "width",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 13,
+                        "errorMessage": "Cannot access value for name control",
+                        "functionName": "color",
+                        "line": 25
+                    }
+                ],
+                "filepath": "W:/Z-GAME-HUB-Windows/ui/components/ZButton.qml"
+            }
+        ],
+        "moduleId": "ZGameHub(z-game-hub)"
+    }
+]

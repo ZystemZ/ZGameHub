@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/qt/qml/ZGameHub/">
+    <file alias="ui/Main.qml">W:/Z-GAME-HUB-Windows/ui/Main.qml</file>
+    <file alias="ui/components/GameCard.qml">W:/Z-GAME-HUB-Windows/ui/components/GameCard.qml</file>
+    <file alias="ui/components/ZButton.qml">W:/Z-GAME-HUB-Windows/ui/components/ZButton.qml</file>
+    <file alias="ui/components/ZTextField.qml">W:/Z-GAME-HUB-Windows/ui/components/ZTextField.qml</file>
+    <file alias="ui/components/ZComboBox.qml">W:/Z-GAME-HUB-Windows/ui/components/ZComboBox.qml</file>
+    <file alias="ui/components/ZTextArea.qml">W:/Z-GAME-HUB-Windows/ui/components/ZTextArea.qml</file>
+    <file alias="assets/z-hub-hero.png">W:/Z-GAME-HUB-Windows/assets/z-hub-hero.png</file>
+    <file alias="assets/game-card-placeholder.png">W:/Z-GAME-HUB-Windows/assets/game-card-placeholder.png</file>
+    <file alias="assets/zconsole-mark.svg">W:/Z-GAME-HUB-Windows/assets/zconsole-mark.svg</file>
+  </qresource>
+</RCC>
+

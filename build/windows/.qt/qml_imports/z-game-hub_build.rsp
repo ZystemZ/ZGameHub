@@ -1,0 +1,15 @@
+-rootPath
+W:/Z-GAME-HUB-Windows
+-cmake-output
+-output-file
+W:/Z-GAME-HUB-Windows/build/windows/.qt/qml_imports/z-game-hub_build.cmake
+-importPath
+W:/Z-GAME-HUB-Windows/build/windows/ZGameHub
+-importPath
+W:/Z-GAME-HUB-Windows/build/windows
+-importPath
+C:/Users/Zelipe/AppData/Local/Qt/6.8.3/msvc2022_64/qml
+-qrcFiles
+W:/Z-GAME-HUB-Windows/build/windows/.qt/rcc/qmake_ZGameHub.qrc
+W:/Z-GAME-HUB-Windows/build/windows/.qt/rcc/z-game-hub_raw_qml_0.qrc
+W:/Z-GAME-HUB-Windows/build/windows/.qt/rcc/z-game-hub_raw_qml_0_extra_qmldirs.qrc

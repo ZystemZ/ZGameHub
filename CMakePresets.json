@@ -1,0 +1,62 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": { "major": 3, "minor": 21, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "windows-vs2022",
+      "displayName": "Windows / Visual Studio 2022 x64",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/out/build/windows-vs2022",
+      "cacheVariables": { "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/windows-vs2022" }
+    },
+    {
+      "name": "windows-mingw-x64",
+      "displayName": "Windows / MinGW-w64 x64",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/windows-mingw-x64",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release", "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/windows-mingw-x64" }
+    },
+    {
+      "name": "linux-gcc",
+      "displayName": "Linux / GCC",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/linux-gcc",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release", "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/linux-gcc" }
+    },
+    {
+      "name": "macos-clang",
+      "displayName": "macOS / Apple Clang",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/macos-clang",
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release", "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/macos-clang" }
+    },
+    {
+      "name": "android-arm64",
+      "displayName": "Android / arm64-v8a",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/android-arm64",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_SYSTEM_NAME": "Android",
+        "CMAKE_SYSTEM_VERSION": "26",
+        "CMAKE_ANDROID_ARCH_ABI": "arm64-v8a",
+        "CMAKE_ANDROID_NDK": "$env{ANDROID_NDK_HOME}",
+        "CMAKE_TOOLCHAIN_FILE": "$env{ANDROID_NDK_HOME}/build/cmake/android.toolchain.cmake",
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/android-arm64"
+      }
+    }
+  ],
+  "buildPresets": [
+    { "name": "windows-vs2022-release", "configurePreset": "windows-vs2022", "configuration": "Release" },
+    { "name": "windows-mingw-release", "configurePreset": "windows-mingw-x64" },
+    { "name": "linux-release", "configurePreset": "linux-gcc" },
+    { "name": "macos-release", "configurePreset": "macos-clang" },
+    { "name": "android-release", "configurePreset": "android-arm64" }
+  ],
+  "testPresets": [
+    { "name": "windows-vs2022-tests", "configurePreset": "windows-vs2022", "configuration": "Release", "output": { "outputOnFailure": true } },
+    { "name": "linux-tests", "configurePreset": "linux-gcc", "output": { "outputOnFailure": true } },
+    { "name": "macos-tests", "configurePreset": "macos-clang", "output": { "outputOnFailure": true } }
+  ]
+}

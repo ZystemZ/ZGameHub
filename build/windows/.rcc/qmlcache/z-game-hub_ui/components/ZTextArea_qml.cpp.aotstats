@@ -1,0 +1,36 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 16,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "Cannot access value for name control",
+                        "functionName": "color",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot access value for name control",
+                        "functionName": "width",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 23,
+                        "durationMicroseconds": 15,
+                        "errorMessage": "Cannot access value for name control",
+                        "functionName": "color",
+                        "line": 16
+                    }
+                ],
+                "filepath": "W:/Z-GAME-HUB-Windows/ui/components/ZTextArea.qml"
+            }
+        ],
+        "moduleId": "ZGameHub(z-game-hub)"
+    }
+]

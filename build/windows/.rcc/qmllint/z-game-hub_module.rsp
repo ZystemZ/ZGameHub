@@ -1,0 +1,12 @@
+-I
+W:/Z-GAME-HUB-Windows/build/windows
+-I
+C:/Users/Zelipe/AppData/Local/Qt/6.8.3/msvc2022_64/qml
+--resource
+W:/Z-GAME-HUB-Windows/build/windows/.qt/rcc/qmake_ZGameHub.qrc
+--resource
+W:/Z-GAME-HUB-Windows/build/windows/.qt/rcc/z-game-hub_raw_qml_0.qrc
+--resource
+W:/Z-GAME-HUB-Windows/build/windows/.qt/rcc/z-game-hub_raw_qml_0_extra_qmldirs.qrc
+--module
+ZGameHub

@@ -1,0 +1,264 @@
+{
+    "classes": [
+        {
+            "className": "QuiverIntegration",
+            "lineNumber": 13,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 10,
+                    "name": "refreshCatalog",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "app",
+                            "type": "QVariantMap"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "openOrPrepareApp",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "asset",
+                            "type": "QVariantMap"
+                        }
+                    ],
+                    "index": 12,
+                    "name": "installSelectedRelease",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "executablePath",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 13,
+                    "name": "launchInstalledApp",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 14,
+                    "name": "appsDirectory",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "apps",
+                    "notify": "appsChanged",
+                    "read": "apps",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "catalogStatus",
+                    "notify": "catalogStatusChanged",
+                    "read": "catalogStatus",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "catalogBusy",
+                    "notify": "catalogBusyChanged",
+                    "read": "catalogBusy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "operationStatus",
+                    "notify": "operationStatusChanged",
+                    "read": "operationStatus",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "operationBusy",
+                    "notify": "operationBusyChanged",
+                    "read": "operationBusy",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "releaseAssets",
+                    "notify": "releaseAssetsChanged",
+                    "read": "releaseAssets",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "pendingApp",
+                    "notify": "pendingAppChanged",
+                    "read": "pendingApp",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantMap",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "installedExecutables",
+                    "notify": "installedExecutablesChanged",
+                    "read": "installedExecutables",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantList",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "QuiverIntegration",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "appsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "catalogStatusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "catalogBusyChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "operationStatusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "operationBusyChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "releaseAssetsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "name": "pendingAppChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "name": "installedExecutablesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "executables",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "iconUrl",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 9,
+                    "name": "appInstalled",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "QuiverIntegration.h",
+    "outputRevision": 68
+}
